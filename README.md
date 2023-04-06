@@ -28,9 +28,7 @@ Dépendance à Installer:
 1. Commencez par récupérer un csv récent des 2 Datasets. Les données sont mise à jours sur les api tous les jours.
 2. Traitement des datasets : Ne garder que les colonnes utiles pour le projet. La clé commune est le jour de l'année.Garder le Dataset des vol d'avion complet, et ne garder que les colonnes de la météo intéressantes tel que la vitesse du vent, où la température.
 
-  - Pour que tout fonctionne, assurez-vous d'avoir placé votre projet dans le dossier Projet_Archi_Distrib . 
-
-  -  
+  
 ## 2) Démarrage
 
 1. Créez l'image de docker compose en mettant kafka, zookeper,  spark-master et spark-worker dans la même image :docker-compose.yml
