@@ -54,6 +54,13 @@ Nous avons tout de même réussi à faire communiquer le producer et le consumer
 ![image](https://user-images.githubusercontent.com/129997458/230249883-d7af706d-e0cd-4a24-8e7f-da2220d80e9f.png)
 
 
+Pour avoir ce résultat, il faut dans un premier temps, se connecter à la vm kafka (docker exec -it kafka bash) puis exécuter cette commande : kafka-topics.sh --create --bootstrap-server localhost:9092 --topic mytopic2. Ensuite exécuter cette commande : kafka-console-producer.sh --bootstrap-server localhost:9092 --topic mytopic2 --property "parse.key=true" --property "key.separator=:".
+
+Ouvrir le fichier python 'read_test_pyspark.py' et le copier depuis un cmd local où est répértorié le fichier en question dans la vm de spark-master (docker cp read_test_pyspark.Py spark-master:/opt/workspace/spark/bin/).
+
+Puis se connecter sur la vm de spark-master(docker exec -it spark-master bash) et lancer : spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 /opt/workspace/spark/bin/read_test_pyspark.py
+
+
 ## 4) Analyse
 
 1. Une fois tout cela réalisé, nous avons envoyé nos fichier csv dans une base MongoDB
