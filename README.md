@@ -18,6 +18,7 @@ Dépendance à Installer:
 - [**Pandas**](https://pandas.pydata.org/)
 - [**Pyspark**](https://pypi.org/project/pyspark/)
 - [**Pymongo**](https://www.mongodb.com/docs/drivers/pymongo/)
+- [**Kafka-python**](https://pypi.org/project/kafka-python/)
 
 
 # Mise en place du projet
