@@ -81,9 +81,12 @@ Lors de l'ouverture de MongoDB Compass, une fois s'être connecté, après l'ins
 ## 5) Utiliser Mongo :
 Vous pouvez utiliser une invite de commandes MongoDB pour modifier les données de votre base NoSQL. Ci-dessous, voici quelques commandes de base si vous voulez vous essayer à Mongo Shell.
 
-Nous n'avons malheureusement pas pu allez jusqu'à cet étape, mais voici comment il faut procéder :
+Nous n'avons malheureusement pas pu allez jusqu'à cet étape, mais voici ci-desous comment il faut procéder :
 
-Pour lancer Mongo Shell, veuilez aller sur le dossier de votre MongoDB Shell > bin > mongo.exe
+
+Dans le cas où nous souhaiterions stocké nos csv dans mongo, nous pouvons simplement lancé ce script python qui va nous permettre de créer une base, et d'insérer les données que nous souhaitons : 'prog_insert_csv_in_mongo.py'.
+
+Pour lancer Mongo Shell, veuilez aller sur le dossier de votre MongoDB Shell > bin > mongo.exe.
 
 Si vous voulez afficher les collections de la base :
 ```python
