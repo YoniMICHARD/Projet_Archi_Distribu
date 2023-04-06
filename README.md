@@ -44,7 +44,7 @@ Dépendance à Installer:
 3. Pour vérifier votre topic, vous pouvez voir la description des topics sur la vm en réalisant la commande suivante : kafka-topics.sh --describe --topic mytopic --bootstrap-server localhost:9092
 4. Ouvrir maintenant le fichier python 'consumer.py' qui se situe dans le dossier du projet sur la machine locale, puis copier ce fichier dans la VM de spark-master en faisant la commande : 'docker cp consumer.py spark-master:/usr/bin/spark-3.0.0-bin-hadoop3.2/bin', en ouvrant une invite de commande avec le path du dossier du projet
 5. Ouvrir ensuite le fichier python 'producer.py' et le lancer n'importe où sur la machine locale (par exemple vscode, jupyterlab ...)
-6. Veuillez aprèse Retourner sur la VM du spark-master, à l'endroit où le fichier 'consumer.py' se situe, et faites ensuite un spark-submit : ./spark-submit --master spark://spark-master:7077 --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 /usr/bin/spark-3.0.0-bin-hadoop3.2/bin/consumer.py
+6. Veuillez a prèsent Retourner sur la VM du spark-master, à l'endroit où le fichier 'consumer.py' se situe, et faites ensuite un spark-submit : ./spark-submit --master spark://spark-master:7077 --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 /usr/bin/spark-3.0.0-bin-hadoop3.2/bin/consumer.py
 
 Hélas nous sommes restés bloqués à un probleme de checkpoint entre un producer externe et le consumer, au moment de faire l'exécution du spark-submit du fichier consumer.py sur la vm spark-master, nous avons eu énormement de problèmes. Le dernier étant un problème de checkpoint. Par conséquent, nous avons perdus trop de temps à essayer de résoudres les différentes erreurs, nous n'avons pas pu terminer le projet entièrement et à temps.
 
