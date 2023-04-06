@@ -85,6 +85,7 @@ Nous n'avons malheureusement pas pu allez jusqu'à cet étape, mais voici ci-des
 
 
 Dans le cas où nous souhaiterions stocké nos csv dans mongo, nous pouvons simplement lancé ce script python qui va nous permettre de créer une base, et d'insérer les données que nous souhaitons : 'prog_insert_csv_in_mongo.py'.
+Attention dans les fichier lié à mongo, au niveau de 'GET_DATABASE' changer le lien et mettre celui de VOTRE base mongo.
 
 Pour lancer Mongo Shell, veuilez aller sur le dossier de votre MongoDB Shell > bin > mongo.exe.
 
