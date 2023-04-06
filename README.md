@@ -64,7 +64,7 @@ DossierAggregate
 Lors de l'ouverture de MongoDB Compass, une fois s'être connecté, après l'insertion des programmes python précédents, nous obtenons donc 3 collections distinctes dans une base de données qui s'appelle Projet.
 
 2. Pour visualiser les diagrammes d'analyses de données, lancez les fichiers suivants que vous trouverez dans Dossier_analyse.
-  - **Analyse1;py** :
+  - **Analyse1.py** :
   - **Analyse2.py** :
   - **Analyse3.py** :
   - **Analyse4.py** : 
