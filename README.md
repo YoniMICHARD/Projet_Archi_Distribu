@@ -1,4 +1,4 @@
-# Projet d'Architechture distribué
+# Projet d'Architechture distribuée
 
 # Introduction du Projet
 
