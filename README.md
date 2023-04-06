@@ -5,6 +5,7 @@
 Ce github contient notre projet d'Architecture distribué encadré par M. LIMA. Nous avons décidé de travailler sur une corrélation entre la météo en Europe et Les vols d'avions chaque jours en Europe également. Pour la météo, nous avons récupérer les données en fichiers csv sur une api donnant la météo en europe en streaming, ansi que les données archivées des jours précédents. Pour les vols d'avions, on a également récupéré un fichier csv sur un site web appelé opensky qui permet de récupérer les données des avions ayant décollé ou atteri dans les différents pays d'Europe. Notre objectif serai de voir si la météo en europe influe sur le nombre de départ et d'arrivé de vol d'avion dans les différent pays européens.
 
 Voici le lien de notre Trello pour la gestion de notre projet : [**Trello**](https://trello.com/b/QQXGw0yf/archtecture-distribu%C3%A9e).
+
 Vous pourrez également accéder à notre PowerPoint partagé ici-même.
 
 # Prérequis
